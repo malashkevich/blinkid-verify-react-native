@@ -1,0 +1,99 @@
+/* 
+  PPCamera.strings
+  IDVerifyFramework
+
+  Created by Jura on 12/03/2017.
+  Copyright © 2017 MicroBlink. All rights reserved.
+*/
+
+/* Title of the navigation bar when the ID is being scanned */
+"scanning.navigationBar.title" = "Skeniranje iskaznice";
+
+/* Title of the navigation bar when the ID data is being review end edited */
+"editing.navigationBar.title" = "Uređivanje podataka";
+
+/* Title of the navigation bar when the Selfie is taken */
+"liveness.navigationBar.title" = "Selfie";
+
+/* Title of the navigation bar when the ID is being verified */
+"results.navigationBar.title" = "Potvrda usporedbe lica";
+
+
+/** ID scaning interface */
+
+/* Text of the label describing how to scan the front side of the ID. Can be max 3 lines */
+"scanning.status.idfront" = "Postavite prednju stranu osobne iskaznice u okvir i pričekajte automatsko skeniranje.";
+
+/* Text presented in the help tooltip describing what's scanned */
+"scanning.help.idfront" = "Prednja strana osobne iskaznice";
+
+/* Text of the label describing how to scan the back side of the ID. Can be max 3 lines */
+"scanning.status.idback" = "Postavite stražnju stranu osobne iskaznice u okvir i pričekajte automatsko skeniranje.";
+
+/* Text presented in the help tooltip describing what's scanned */
+"scanning.help.idback" = "Stražnja strana osobne iskaznice";
+
+/** Label explaining to avoid glare */
+"scanning.status.glare" = "Pomaknite iskaznicu da izbjegnete odsjaj";
+
+
+/** Non matching data view */
+
+/* Text of the label describing that the scanned data from the front and the back side don't match */
+"scanning.nonmatching.message" = "Ne podudaraju se prednja i stražnja strana osobne iskaznice.";
+
+/** Button title telling the user to scan again because the data doesn't match */
+"scanning.nonmatching.buttontitle" = "Ponovite skeniranje";
+
+
+/** Liveness interface */
+
+/** Text presented in the round frame which tells the user to position the face in that frame */
+"liveness.status.faceNotInFrame" = "Pozicionirajte lice unutar okvira";
+
+/** Text presented in the round frame which tells the user to blink and hold eyes closed shortly */
+"liveness.status.blink" = "Sklopite oči na tren";
+
+/** Text presented in the round frame which tells the user to smile widely with teeth */
+"liveness.status.smile" = "Osmijehom pokažite zube";
+
+/** Text presented in the round frame which tells the user to correct the angle of the face towards the device */
+"liveness.status.angle" = "Poravnajte telefon s licem";
+
+/** Text presented in the round frame which tells the user to decrease the distance between the face and the camera */
+"liveness.status.tooFar" = "Približite se kameri";
+
+/** Text presented in the round frame which tells the user to increase the distance between the face and the camera */
+"liveness.status.tooClose" = "Udaljite se od kamere";
+
+/** Text shown on a button which opens liveness instructions */
+"liveness.instructions.title" = "Dodirnite za detaljne upute";
+
+
+/** Instructions interface */
+
+
+/** Title of the close button on instructions. Short */
+"instructions.close" = "ZATVORI";
+
+/** Scan instructions */
+
+/** Title of the scan instructions screen. One line */
+"instructions.scan.title" = "UPUTE ZA SKENIRANJE";
+
+/** Upper part of the scan instructions message. Multiline label */
+"instructions.scan.upper" = "Prvo stavite prednju stranu, a zatim poleđinu svoje osobne iskaznice u okvir. Pričekajte automatsko očitavanje.";
+
+/** Lower part of the scan instructions message. Multiline label */
+"instructions.scan.lower" = "Kako bi očitavanje bilo uspješno, osobna iskaznica ne smije stajati ukoso i obvezno eliminirajte odsjaj.";
+
+/** Selfie instructions */
+
+/** Title of the selfie instructions screen. One line */
+"instructions.selfie.title" = "UPUTE ZA SELFIE";
+
+/** Upper part of the selfie instructions message. Multiline label */
+"instructions.selfie.upper" = "Držite telefon ravno ispred lica te slijedite upute na ekranu.";
+
+/** Lower part of the selfie instructions message. Multiline label */
+"instructions.selfie.lower" = "U prostoriji treba biti dovoljno svjetla, a izvor svjetlosti ne smije biti izravno iza Vas.";

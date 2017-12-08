@@ -1,0 +1,99 @@
+/*
+  PPCamera.strings
+  IDVerifyFramework
+
+  Created by Jura on 12/03/2017.
+  Copyright © 2017 MicroBlink. All rights reserved.
+*/
+
+/* Title of the navigation bar when the ID is being scanned */
+"scanning.navigationBar.title" = "Scan your ID";
+
+/* Title of the navigation bar when the ID data is being review end edited */
+"editing.navigationBar.title" = "Data confirmation";
+
+/* Title of the navigation bar when the Selfie is taken */
+"liveness.navigationBar.title" = "Selfie";
+
+/* Title of the navigation bar when the ID is being verified */
+"results.navigationBar.title" = "Data confirmation";
+
+
+/** ID scaning interface */
+
+/* Text of the label describing how to scan the front side of the ID. Can be max 3 lines */
+"scanning.status.idfront" = "Place the front side of the ID card in the frame and wait for automatic scan.";
+
+/* Text presented in the help tooltip describing what's scanned */
+"scanning.help.idfront" = "ID card front side";
+
+/* Text of the label describing how to scan the back side of the ID. Can be max 3 lines */
+"scanning.status.idback" = "Place the back side of the ID card in the frame and wait for automatic scan.";
+
+/* Text presented in the help tooltip describing what's scanned */
+"scanning.help.idback" = "ID card back side";
+
+/** Label explaining to avoid glare */
+"scanning.status.glare" = "Move the card to avoid glare";
+
+
+/** Non matching data view */
+
+/* Text of the label describing that the scanned data from the front and the back side don't match */
+"scanning.nonmatching.message" = "The front and back side of the ID don’t match.";
+
+/** Button title telling the user to scan again because the data doesn't match */
+"scanning.nonmatching.buttontitle" = "Scan again";
+
+
+/** Liveness interface */
+
+/** Text presented in the round frame which tells the user to position the face in that frame */
+"liveness.status.faceNotInFrame" = "Position face inside the frame";
+
+/** Text presented in the round frame which tells the user to blink and hold eyes closed shortly */
+"liveness.status.blink" = "Close eyes for a second";
+
+/** Text presented in the round frame which tells the user to smile widely with teeth */
+"liveness.status.smile" = "Smile while showing teeth";
+
+/** Text presented in the round frame which tells the user to correct the angle of the face towards the device */
+"liveness.status.angle" = "Align device with face";
+
+/** Text presented in the round frame which tells the user to decrease the distance between the face and the camera */
+"liveness.status.tooFar" = "Get closer to the camera";
+
+/** Text presented in the round frame which tells the user to increase the distance between the face and the camera */
+"liveness.status.tooClose" = "Increase distance from the camera";
+
+/** Text shown on a button which opens liveness instructions */
+"liveness.instructions.title" = "Tap for detailed instructions";
+
+
+/** Instructions interface */
+
+
+/** Title of the close button on instructions. Short */
+"instructions.close" = "CLOSE";
+
+/** Scan instructions */
+
+/** Title of the scan instructions screen. One line */
+"instructions.scan.title" = "SCANNING INSTRUCTIONS";
+
+/** Upper part of the scan instructions message. Multiline label */
+"instructions.scan.upper" = "First, put the front side then the back of your ID card in the frame. Wait until automatic reading is complete";
+
+/** Lower part of the scan instructions message. Multiline label */
+"instructions.scan.lower" = "To ensure a successful reading, make sure that the ID card is not placed aslant and that there is no reflection.";
+
+/** Selfie instructions */
+
+/** Title of the selfie instructions screen. One line */
+"instructions.selfie.title" = "INSTRUCTIONS FOR SELFIE";
+
+/** Upper part of the selfie instructions message. Multiline label */
+"instructions.selfie.upper" = "Hold your phone directly in front of your face and follow the instructions on the display.";
+
+/** Lower part of the selfie instructions message. Multiline label */
+"instructions.selfie.lower" = "There must be enough light in the room, and the source of light may not be directly behind you.";

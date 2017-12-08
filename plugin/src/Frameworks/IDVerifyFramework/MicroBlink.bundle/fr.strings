@@ -1,0 +1,51 @@
+/* Library strings */
+
+"photopay_help_title" = "Aide";
+"photopay_close" = "Annuler";
+"photopay_alt_close" = "Close";
+"photopay_again" = "Again";
+"photopay_help_close" = "Fini";
+"photopay_help_continue" = "Plus";
+
+"photopay_light_on" = "Flash";
+"photopay_light_off" = "Flash";
+
+"photopay_help_screen_1" = "PhotoPay prépare les données du virement en pointant l'appareil photo d'un téléphone sur le formulaire de virement.";
+"photopay_help_screen_2" = "Posez le formulaire de virement sur une surface plane et tenez fixement le téléphone au dessus du formulaire.";
+"photopay_help_screen_3" = "Positionnez précisément le formulaire dans le cadre à l'écran pour améliorer les résultats - N'éloignez pas trop le téléphone du formulaire.";
+"photopay_help_screen_4" = "Le formulaire de paiement ne doit pas être incliné et doit être bien éclairé.";
+"photopay_help_screen_5" = "Seuls les champs imprimés sont supportés. L'écriture manuscrite n'est pas reconnue.";
+"photopay_warning_check_results" = "Avant de valider le paiement, assurez-vous qu'il n'y a aucune erreur parmi les les données scannées.";
+"photopay_help_more_info" = "En savoir plus";
+"photopay_help_screen_barcode" = "Placez l'appareil bien droit au dessus du code barre et attendez la fin du scan.";
+
+"photopay_full_rec_message" = "Formulaire reconnu";
+"photopay_processing_message" = "Merci de garder votre appareil immobile. Traitement en cours…";
+
+"photopay_align_message" = "Placez l'appareil au dessus du formulaire de virement.";
+"photopay_camera_too_high" = "Merci de rapprocher votre appareil du formulaire.";
+"photopay_camera_at_angle" = "Merci de rapprocher votre appareil du formulaire de virement."; // unused
+"photopay_camera_rotated" = "Merci de positionner votre appareil parallèlement aux bords du formulaire de virement"; // unused
+"photopay_partial_slip" = "Certaines parties du formulaire de virement ne sont pas visible";
+"photopay_camera_too_near" = "Please increase the distance between the device and the slip"; // untranslated
+
+/** Demo app strings */
+
+"photopay_error_autofocus" = "Cette fonctionnalité n'est pas supportée sur les téléphones sans autofocus.";
+"photopay_error_old" = "Cette fonctionnalité n'est pas supportée sur les anciens modèles d'iPhone, iPad et iPod.";
+"photopay_error_old_os" = "Cette fonctionnalité est supportée   pour iOS 4.0 et supérieur.";
+"photopay_error_simulator" = "Cette fonctionnalité n'est supportée sur le simulateur iOS.";
+
+"photopay_no_rec_message" = "Slip not recognized";
+"photopay_part_rec_message" = "Slip partially recognized";
+
+"photopay_Timeout_Title"                 = "Slip is not recognized";
+"photopay_Timeout_Partial_Message"       = "Recognized data:";
+"photopay_Timeout_Unsuccessful_Message"  = "";
+"photopay_Timeout_Cancel_Button"         = "Cancel";
+"photopay_Timeout_Try_Again_Button"      = "Again";
+"photopay_Timeout_Create_Payment_Button" = "Create payment";
+
+"PP_Acceptgiro_Help_Text" = "Scan the white area at the bottom of your payslip. For best results, place the whole area inside the window above."; // untranslated
+
+"photopay_camera_permission_denied" = "{font:@Medium}%@{/font} does not have permission to use the camera.\n\nPlease go to:\n• {font:@Medium}Settings{/font}\n• {font:@Medium}%@{/font}\n• Make sure that {font:@Medium}Camera{/font} is enabled";

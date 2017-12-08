@@ -1,0 +1,15 @@
+<resources>
+    <!-- Document fields -->
+    <string name="field_sex">Sex</string>
+    <string name="field_birth_date">Date of birth</string>
+    <string name="field_expiry_date">Date of expiry</string>
+    <string name="field_first_name">First name</string>
+    <string name="field_last_name">Last name</string>
+    <string name="field_document_code">Document code</string>
+    <string name="field_nationality">Nationality</string>
+    <string name="field_opt1">Opt1</string>
+    <string name="field_opt2">Opt2</string>
+    <string name="field_issuer">Issuer</string>
+    <string name="field_document_number">Document number</string>
+
+</resources>

@@ -1,0 +1,51 @@
+/* Library strings */
+
+"photopay_help_title" = "Help";
+"photopay_close" = "Cancel";
+"photopay_alt_close" = "Close";
+"photopay_again" = "Again";
+"photopay_help_close" = "Got it";
+"photopay_help_continue" = "More";
+
+"photopay_light_on" = "Light";
+"photopay_light_off" = "Light";
+
+"photopay_help_screen_1" = "PhotoPay prepares payment data through a phone camera directed at the payment slip.";
+"photopay_help_screen_2" = "Place the payment slip on a flat surface and steadily hold the phone over the slip.";
+"photopay_help_screen_3" = "Precise positioning of the slip in the screen box improves results – do not hold the phone too far from the slip.";
+"photopay_help_screen_4" = "The payment slip should not be positioned at an angle and should be well lit.";
+"photopay_help_screen_5" = "Only printed fields are supported. Handwritten fields will not be recognized.";
+"photopay_warning_check_results" = "Before making the payment, make sure you check all scanned data for possible errors.";
+"photopay_help_more_info" = "Learn more";
+"photopay_help_screen_barcode" = "Place the phone straight above the barcode and wait until the scan is finished.";
+
+"photopay_full_rec_message" = "Slip recognized";
+"photopay_processing_message" = "Please, hold your phone still. Processing…";
+
+"photopay_align_message" = "Position the phone over the payment slip";
+"photopay_camera_too_high" = "Please position the phone closer to the slip";
+"photopay_camera_at_angle" = "Please position the phone directly above the slip"; // unused
+"photopay_camera_rotated" = "Please position the phone parallel with the edges of the slip"; // unused
+"photopay_partial_slip" = "Some parts of the payslip are not visible";
+"photopay_camera_too_near" = "Please increase the distance between the device and the slip";
+
+/** Demo app strings */
+
+"photopay_error_autofocus" = "This feature is not supported on phones without autofocus.";
+"photopay_error_old" = "This feature is not supported on older iPhone, iPad and iPod devices";
+"photopay_error_old_os" = "This feature is supported for iOS 4.0 and newer";
+"photopay_error_simulator" = "This feature is not supported on iOS simulator";
+
+"photopay_no_rec_message" = "Slip not recognized";
+"photopay_part_rec_message" = "Slip partially recognized";
+
+"photopay_Timeout_Title"                 = "Slip is not recognized";
+"photopay_Timeout_Partial_Message"       = "Recognized data:";
+"photopay_Timeout_Unsuccessful_Message"  = "";
+"photopay_Timeout_Cancel_Button"         = "Cancel";
+"photopay_Timeout_Try_Again_Button"      = "Again";
+"photopay_Timeout_Create_Payment_Button" = "Create payment";
+
+"PP_Acceptgiro_Help_Text" = "Scan the white area at the bottom of your payslip. For best results, place the whole area inside the window above.";
+
+"photopay_camera_permission_denied" = "{font:@Medium}%@{/font} does not have permission to use the camera.\n\nPlease go to:\n• {font:@Medium}Settings{/font}\n• {font:@Medium}%@{/font}\n• Make sure that {font:@Medium}Camera{/font} is enabled";

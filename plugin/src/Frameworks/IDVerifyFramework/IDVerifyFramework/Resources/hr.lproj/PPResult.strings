@@ -1,0 +1,102 @@
+/* 
+  PPResult.strings
+  IDVerifyFramework
+
+  Created by Jura on 12/03/2017.
+  Copyright © 2017 MicroBlink. All rights reserved.
+*/
+
+/** Edit Screen */
+
+/* Subtitle to the edit screen. 2 lines of text which automatically splits optimally */
+"edit.subtitle" = "Ako neki podatak nije ispravno skeniran, uredite ga ili ponovite skeniranje.";
+
+/* Cell title which tells the user to insert the data */
+"edit.insert.title" = "MOLIM UNESITE PODATKE";
+
+/* Button which tells the user to repeat the scanning */
+"edit.button.repeatScanning" = "PONOVITE SKENIRANJE";
+
+/* Button which tells the user to confirm the scanning results and move on to livenss detection */
+"edit.button.confirm" = "NASTAVITE";
+
+/* Button which tells the user to edit the data */
+"edit.button.edit" = "UREDITE";
+
+
+/** Insert data keyboard */
+
+/* Short button title which closes the keyboard */
+"edit.keyboard.done" = "Potvrdi";
+
+
+/** Keyboard screen */
+
+/* Label shown which explains how to edit the specific value. Can be max two lines of small font */
+"keyboard.label.help" = "Označena slova moguće je promijeniti pomoću tipkovnice. Aktivno slovo za izmjenu označeno je crvenom bojom, a strelicama odabirete sljedeća slova.";
+
+/* Button which tells the user to confirm the edited value */
+"keyboard.button.confirm" = "POTVRDITE IZMJENE";
+
+
+/** Result Screen */
+
+/* Button which tells the user to confirm the scanning results and complete the verification process */
+"result.button.continue" = "NASTAVITE";
+
+/* Button which tells the user to repeat the selfie taking process */
+"result.button.repeatSelfie" = "PONOVITE SELFIE";
+
+/* Button which tells the user to cancel the process and to continue without confirming the identity */
+"result.button.continueWithoutConfirmation" = "UGOVORITE SASTANAK";
+
+
+/** Result error statuses */
+
+/** Label which tells the user the status why face matching failed */
+"result.status.noconnection" = "PROVJERITE INTERNET VEZU.";
+
+/** Label which tells the user the status why face matching failed */
+"result.status.matchfailed" = "USPOREDBA LICA NIJE USPJELA. PONOVITE SELFIE ILI UGOVORITE SASTANAK U POSLOVNICI.";
+
+/** Label which tells the user the status why face matching failed */
+"result.status.selfiefailed" = "NIJE USPJELO SNIMANJE SELFIJA. PONOVITE I SLIJEDITE UPUTE NA EKRANU.";
+
+
+/** Result fields */
+
+/* Title label for document number. Short, one line */
+"result.fieldtitle.documentno" = "Broj osobne iskaznice";
+
+/* Title label for first name. Short, one line */
+"result.fieldtitle.firstname" = "Ime";
+
+/* Title label for last name. Short, one line */
+"result.fieldtitle.lastname" = "Prezime";
+
+/* Title label for sex. Short, one line */
+"result.fieldtitle.sex" = "Spol";
+
+/* Title label for date of birth. Short, one line */
+"result.fieldtitle.dateOfBirth" = "Datum rođenja";
+
+/* Title label for nationality. Short, one line */
+"result.fieldtitle.nationality" = "Državljanstvo";
+
+/* Title label for address. Short, one line */
+"result.fieldtitle.address" = "Prebivalište";
+
+/* Title label for issued by. Short, one line */
+"result.fieldtitle.issuer" = "Izdavatelj";
+
+/* Title label for date of expiry. Short, one line */
+"result.fieldtitle.dateOfExpiry" = "Vrijedi do";
+
+/* Title label for OIB. Short, one line */
+"result.fieldtitle.oib" = "OIB";
+
+/* Placeholder text for entering OIB number. Short, one line */
+"result.insert.oib" = "Unesite vaš OIB";
+
+/* Label which tells that entered OIB is not valid. Short, one line */
+"result.insert.oib.error" = "Uneseni OIB nije ispravan.";

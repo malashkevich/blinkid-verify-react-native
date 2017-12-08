@@ -1,0 +1,28 @@
+/* 
+  cs.strings
+  PhotoPayDev
+
+  Created by Jura Skrlec on 26/05/2017.
+
+*/
+
+
+"photopay_help_title" = "Nápověda";
+"photopay_close" = "Zrušit";
+"photopay_alt_close" = "Zpět";
+"photopay_again" = "Znovu";
+"photopay_help_close" = "Rozumím";
+"photopay_help_continue" = "Více";
+
+"photopay_light_on" = "Světlo";
+"photopay_light_off" = "Světlo";
+
+"photopay_full_rec_message" = "Rozeznal jsem složenku";
+"photopay_processing_message" = "Zaměřte kameru, prosím, ať na to hezky vidím.";
+
+"photopay_align_message" = "Zaměřte kameru na složenku, prosím.";
+"photopay_camera_too_high" = "Šlo by to trochu blíž? Děkuji!";
+"photopay_camera_at_angle" = "Zaměřte kameru přímo na složenku, prosím."; // unused
+"photopay_camera_rotated" = "Zaměřte kameru tak, aby rohy složenky zapadli do rohů na obrazovce."; // unused
+"photopay_partial_slip" = "Nedaří se mi načíst některé části složenky.";
+"photopay_camera_too_near" = "Šlo by to trochu oddálit? Děkuji!";

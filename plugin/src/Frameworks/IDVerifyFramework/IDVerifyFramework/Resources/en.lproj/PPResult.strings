@@ -1,0 +1,129 @@
+/*
+  PPResult.strings
+  IDVerifyFramework
+
+  Created by Jura on 12/03/2017.
+  Copyright © 2017 MicroBlink. All rights reserved.
+*/
+
+/** Edit Screen */
+
+/* Subtitle to the edit screen. 2 lines of text which automatically splits optimally */
+"edit.subtitle" = "If some data is not correct upon scanning, please scan again.";
+
+/* Cell title which tells the user to insert the data */
+"edit.insert.title" = "PLEASE INSERT FIELDS";
+
+/* Button which tells the user to repeat the scanning */
+"edit.button.repeatScanning" = "SCAN AGAIN";
+
+/* Button which tells the user to confirm the scanning results and move on to livenss detection */
+"edit.button.confirm" = "CONFIRM";
+
+/* Button which tells the user to edit the data */
+"edit.button.edit" = "EDIT";
+
+
+/** Insert data keyboard */
+
+/* Short button title which closes the keyboard */
+"edit.keyboard.done" = "Done";
+
+
+/** Keyboard screen */
+
+/* Label shown which explains how to edit the specific value. Can be max two lines of small font */
+"keyboard.label.help" = "Marked letters are available for editing with the keyboard. A selected letter to be changed is marked in red. Use arrows to select other letters.";
+
+/* Button which tells the user to confirm the edited value */
+"keyboard.button.confirm" = "CONFIRM";
+
+
+/** Result Screen */
+
+/* Button which tells the user to confirm the scanning results and complete the verification process */
+"result.button.continue" = "CONFIRM";
+
+/* Button which tells the user to repeat the selfie taking process */
+"result.button.repeatSelfie" = "REPEAT SELFIE";
+
+/* Button which tells the user to cancel the process and to continue without confirming the identity */
+"result.button.continueWithoutConfirmation" = "SET UP A MEETING";
+
+
+/** Result error statuses */
+
+/** Label which tells the user the status why face matching failed */
+"result.status.noconnection" = "CHECK YOUR INTERNET CONNECTION.";
+
+/** Label which tells the user the status why face matching failed */
+"result.status.matchfailed" = "PLEASE REPEAT SELFIE.";
+
+/** Label which tells the user the status why face matching failed */
+"result.status.selfiefailed" = "SELFIE CAPTURE FAILED. REPEAT AND FOLLOW THE INSTRUCTION ON THE SCREEN.";
+
+
+/** Result fields */
+
+/* Title label for document number. Short, one line */
+"result.fieldtitle.documentno" = "Document number";
+
+/* Title label for document code. Short, one line */
+"result.fieldtitle.documentcode" = "Document code";
+
+/* Title label for first name. Short, one line */
+"result.fieldtitle.firstname" = "First name";
+
+/* Title label for last name. Short, one line */
+"result.fieldtitle.lastname" = "Last name";
+
+/* Title label for sex. Short, one line */
+"result.fieldtitle.sex" = "Sex";
+
+/* Title label for date of birth. Short, one line */
+"result.fieldtitle.dateOfBirth" = "Date of birth";
+
+/* Title label for jmbg. Short, one line */
+"result.fieldtitle.jmbg" = "JMBG";
+
+/* Title label for PIN. Short, one line */
+"result.fieldtitle.personalIdentificationNumber" = "PIN";
+
+/* Title label for place of birth. Short, one line */
+"result.fieldtitle.placeOfBirth" = "Place of birth";
+
+/* Title label for nationality. Short, one line */
+"result.fieldtitle.nationality" = "Nationality";
+
+/* Title label for address. Short, one line */
+"result.fieldtitle.address" = "Address";
+
+/* Title label for address. Short, one line */
+"result.fieldtitle.race" = "Race";
+
+/* Title label for blood group. Short, one line */
+"result.fieldtitle.bloodGroup" = "Blood group";
+
+/* Title label for blood group. Short, one line */
+"result.fieldtitle.countryOfBirth" = "Country of birth";
+
+/* Title label for issued by. Short, one line */
+"result.fieldtitle.issuer" = "Issuer";
+
+/* Title label for date of expiry. Short, one line */
+"result.fieldtitle.dateOfExpiry" = "Date of expiry";
+
+/* Title label for date of expiry. Short, one line */
+"result.fieldtitle.opt1" = "Opt 1";
+
+/* Title label for date of expiry. Short, one line */
+"result.fieldtitle.opt2" = "Opt 2";
+
+/* Title label for OIB. Short, one line */
+"result.fieldtitle.oib" = "OIB";
+
+/* Placeholder text for entering OIB number. Short, one line */
+"result.insert.oib" = "Enter your OIB";
+
+/* Label which tells that entered OIB is not valid. Short, one line */
+"result.insert.oib.error" = "OIB is not valid.";

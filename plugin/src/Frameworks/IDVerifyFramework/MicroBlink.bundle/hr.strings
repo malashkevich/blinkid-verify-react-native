@@ -1,0 +1,51 @@
+/* Library strings */
+
+"photopay_help_title" = "Upute";
+"photopay_close" = "Zatvori";
+"photopay_alt_close" = "Zatvori";
+"photopay_again" = "Ponovno";
+"photopay_help_close" = "OK";
+"photopay_help_continue" = "Dalje";
+
+"photopay_light_on" = "Svjetlo";
+"photopay_light_off" = "Svjetlo";
+
+"photopay_help_screen_1" = "'Slikaj i plati' omogućuje pripremu podataka za plaćanje putem kamere telefona usmjerene prema uplatnici.";
+"photopay_help_screen_2" = "Stavite uplatnicu na stol i držite telefon što mirnije iznad uplatnice.";
+"photopay_help_screen_3" = "Što točnije pozicionirajte uplatnicu u okvir na ekranu - ne držite predaleko";
+"photopay_help_screen_4" = "Uplatnica ne smije biti nakošena te treba biti dobro osvijetljena.";
+"photopay_help_screen_5" = "'Slikaj i plati' prepoznaje samo tiskana polja. Rukom pisana polja neće biti prepoznata.";
+"photopay_warning_check_results" = "Prije potvrde plaćanja putem opcije 'Slikaj i plati' obavezno provjerite ispravnost očitanih podataka.";
+"photopay_help_more_info" = "Saznajte više";
+"photopay_help_screen_barcode" = "Držite telefon ravno iznad barkoda i pričekajte dok se ne obavi skeniranje.";
+
+"photopay_full_rec_message" = "Uplatnica prepoznata";
+"photopay_processing_message" = "Držite telefon mirno, slika se obrađuje…";
+
+"photopay_align_message" = "Postavite kameru iznad uplatnice ili barkoda";
+"photopay_camera_too_high" = "Približite telefon uplatnici";
+"photopay_camera_at_angle" = "Namjestite telefon ravno iznad uplatnice"; // unused
+"photopay_camera_rotated" = "Poravnajte telefon paralelno s rubovima uplatnice"; // unused
+"photopay_partial_slip" = "Neki dijelovi uplatnice nisu vidljivi";
+"photopay_camera_too_near" = "Udaljite kameru od uplatnice";
+
+/** Demo app strings */
+
+"photopay_error_autofocus" = "Ova funkcija nije dostupna na uređajima bez autofocus opcije.";
+"photopay_error_old" = "Ova funkcija nije dostupna za starije verzije iPhone i iPad uređaja.";
+"photopay_error_old_os" = "Ova funkcija je dostupna za operacijski sustav iOS 4 i noviji.";
+"photopay_error_simulator" = "Ova funkcija nije dostupna za iPhone simulator.";
+
+"photopay_no_rec_message" = "Uplatnica nije prepoznata";
+"photopay_part_rec_message" = "Uplatnica djelomično prepoznata";
+
+"photopay_Timeout_Title"                 = "Neuspjelo prepoznavanje";
+"photopay_Timeout_Partial_Message"       = "Prepoznati su podaci:";
+"photopay_Timeout_Unsuccessful_Message"  = "";
+"photopay_Timeout_Cancel_Button"         = "Odustani";
+"photopay_Timeout_Try_Again_Button"      = "Ponovno";
+"photopay_Timeout_Create_Payment_Button" = "Stvori nalog";
+
+"PP_Acceptgiro_Help_Text" = "Scan the white area at the bottom of your payslip. For best results, place the whole area inside the window above."; // untranslated
+
+"photopay_camera_permission_denied" = "{font:@Medium}%@{/font} does not have permission to use the camera.\n\nPlease go to:\n• {font:@Medium}Settings{/font}\n• {font:@Medium}%@{/font}\n• Make sure that {font:@Medium}Camera{/font} is enabled";

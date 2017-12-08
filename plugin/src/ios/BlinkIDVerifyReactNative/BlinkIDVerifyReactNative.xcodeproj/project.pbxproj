@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE207401FD0370700345B29 /* BlinkIDVerifyReactNative.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE2073F1FD0370700345B29 /* BlinkIDVerifyReactNative.m */; };
+		CDE207411FD0370700345B29 /* BlinkIDVerifyReactNative.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDE2073E1FD0370700345B29 /* BlinkIDVerifyReactNative.h */; };
+		CDE9C7AB1FD047F50080CD50 /* IDVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE9C7391FD0460B0080CD50 /* IDVerify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8846741FD1555A00BAF462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE9C7321FD0460B0080CD50 /* IDVerifyFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 18378A431E642C7A0041E8A0;
+			remoteInfo = IDVerifyFramework;
+		};
+		CD8846761FD1555A00BAF462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE9C7321FD0460B0080CD50 /* IDVerifyFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 189905EB1E6B4D740064B1BB;
+			remoteInfo = IDVerifyResources;
+		};
+		CDE9C7381FD0460B0080CD50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE9C7321FD0460B0080CD50 /* IDVerifyFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18378A441E642C7A0041E8A0;
+			remoteInfo = IDVerifyFramework;
+		};
+		CDE9C73A1FD0460B0080CD50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE9C7321FD0460B0080CD50 /* IDVerifyFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18378A4D1E642C7A0041E8A0;
+			remoteInfo = IDVerifyFrameworkTests;
+		};
+		CDE9C73C1FD0460B0080CD50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE9C7321FD0460B0080CD50 /* IDVerifyFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 189905EC1E6B4D740064B1BB;
+			remoteInfo = IDVerifyResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDE207391FD0370700345B29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CDE207411FD0370700345B29 /* BlinkIDVerifyReactNative.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDE2073B1FD0370700345B29 /* libBlinkIDVerifyReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBlinkIDVerifyReactNative.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE2073E1FD0370700345B29 /* BlinkIDVerifyReactNative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlinkIDVerifyReactNative.h; sourceTree = "<group>"; };
+		CDE2073F1FD0370700345B29 /* BlinkIDVerifyReactNative.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlinkIDVerifyReactNative.m; sourceTree = "<group>"; };
+		CDE9C7321FD0460B0080CD50 /* IDVerifyFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IDVerifyFramework.xcodeproj; path = IDVerifyFramework/IDVerifyFramework.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE207381FD0370700345B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE9C7AB1FD047F50080CD50 /* IDVerify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5376EB1FD03C2C00FDDB73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9C7321FD0460B0080CD50 /* IDVerifyFramework.xcodeproj */,
+			);
+			name = Frameworks;
+			path = ../../Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE207321FD0370700345B29 = {
+			isa = PBXGroup;
+			children = (
+				CDE2073D1FD0370700345B29 /* BlinkIDVerifyReactNative */,
+				CDE2073C1FD0370700345B29 /* Products */,
+				CD5376EB1FD03C2C00FDDB73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE2073C1FD0370700345B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2073B1FD0370700345B29 /* libBlinkIDVerifyReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE2073D1FD0370700345B29 /* BlinkIDVerifyReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2073E1FD0370700345B29 /* BlinkIDVerifyReactNative.h */,
+				CDE2073F1FD0370700345B29 /* BlinkIDVerifyReactNative.m */,
+			);
+			path = BlinkIDVerifyReactNative;
+			sourceTree = "<group>";
+		};
+		CDE9C7331FD0460B0080CD50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9C7391FD0460B0080CD50 /* IDVerify.framework */,
+				CDE9C73B1FD0460B0080CD50 /* IDVerifyFrameworkTests.xctest */,
+				CDE9C73D1FD0460B0080CD50 /* IDVerify.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE2073A1FD0370700345B29 /* BlinkIDVerifyReactNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE207441FD0370700345B29 /* Build configuration list for PBXNativeTarget "BlinkIDVerifyReactNative" */;
+			buildPhases = (
+				CDE207371FD0370700345B29 /* Sources */,
+				CDE207381FD0370700345B29 /* Frameworks */,
+				CDE207391FD0370700345B29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8846751FD1555A00BAF462 /* PBXTargetDependency */,
+				CD8846771FD1555A00BAF462 /* PBXTargetDependency */,
+			);
+			name = BlinkIDVerifyReactNative;
+			productName = BlinkIDVerifyReactNative;
+			productReference = CDE2073B1FD0370700345B29 /* libBlinkIDVerifyReactNative.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE207331FD0370700345B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Microblink;
+				TargetAttributes = {
+					CDE2073A1FD0370700345B29 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDE207361FD0370700345B29 /* Build configuration list for PBXProject "BlinkIDVerifyReactNative" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDE207321FD0370700345B29;
+			productRefGroup = CDE2073C1FD0370700345B29 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CDE9C7331FD0460B0080CD50 /* Products */;
+					ProjectRef = CDE9C7321FD0460B0080CD50 /* IDVerifyFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CDE2073A1FD0370700345B29 /* BlinkIDVerifyReactNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CDE9C7391FD0460B0080CD50 /* IDVerify.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IDVerify.framework;
+			remoteRef = CDE9C7381FD0460B0080CD50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDE9C73B1FD0460B0080CD50 /* IDVerifyFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IDVerifyFrameworkTests.xctest;
+			remoteRef = CDE9C73A1FD0460B0080CD50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDE9C73D1FD0460B0080CD50 /* IDVerify.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IDVerify.bundle;
+			remoteRef = CDE9C73C1FD0460B0080CD50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE207371FD0370700345B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE207401FD0370700345B29 /* BlinkIDVerifyReactNative.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8846751FD1555A00BAF462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IDVerifyFramework;
+			targetProxy = CD8846741FD1555A00BAF462 /* PBXContainerItemProxy */;
+		};
+		CD8846771FD1555A00BAF462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IDVerifyResources;
+			targetProxy = CD8846761FD1555A00BAF462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDE207421FD0370700345B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDE207431FD0370700345B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE207451FD0370700345B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQTJWP89J7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../Frameworks/IDVerifyFramework",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE207461FD0370700345B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQTJWP89J7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../Frameworks/IDVerifyFramework",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE207361FD0370700345B29 /* Build configuration list for PBXProject "BlinkIDVerifyReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE207421FD0370700345B29 /* Debug */,
+				CDE207431FD0370700345B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE207441FD0370700345B29 /* Build configuration list for PBXNativeTarget "BlinkIDVerifyReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE207451FD0370700345B29 /* Debug */,
+				CDE207461FD0370700345B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE207331FD0370700345B29 /* Project object */;
+}

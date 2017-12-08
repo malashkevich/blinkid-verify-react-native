@@ -1,0 +1,28 @@
+/* 
+  sk.strings
+  PhotoPayDev
+
+  Created by Jura Skrlec on 26/05/2017.
+
+*/
+
+
+"photopay_help_title" = "Nápoveda";
+"photopay_close" = "Zrušiť";
+"photopay_alt_close" = "Späť";
+"photopay_again" = "Znova";
+"photopay_help_close" = "Rozumiem";
+"photopay_help_continue" = "Viac";
+
+"photopay_light_on" = "Svetlo";
+"photopay_light_off" = "Svetlo";
+
+"photopay_full_rec_message" = "Dáta z poukážky som úspešne načítal.";
+"photopay_processing_message" = "Zamierte prosím kameru na poukážku, aby som mohol nasnímať údaje.";
+
+"photopay_align_message" = "Zamierte prosím kameru na poukážku, aby som mohol nasnímať údaje.";
+"photopay_camera_too_high" = "Šlo by to trochu bližšie, prosím? Ďakujem.";
+"photopay_camera_at_angle" = "Zamierte prosím kameru na poukážku, aby som mohol nasnímať údaje."; // unused
+"photopay_camera_rotated" = "Zamierte kameru tak, aby rohy poukážky zapadali do znázornených rohov na obrazovke."; // unused
+"photopay_partial_slip" = "Nedarí sa mi načítať niektoré údaje.";
+"photopay_camera_too_near" = "Šlo by to trochu oddialiť, prosím? Ďakujem.";

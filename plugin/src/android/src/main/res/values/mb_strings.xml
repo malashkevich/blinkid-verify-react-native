@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="msg_face_match_failed">Please repeat selfie.</string>
+    <string name="msg_face_match_failed_timeout_selfie">Selfie session timed out. Please repeat.</string>
+    <string name="msg_face_match_failed_no_internet">Check your internet connection.</string>
+
+    <string name="activity_title_edit_data_step">Data editing</string>
+    <string name="activity_title_confirm_data_step">Data confirmation</string>
+
+    <string name="tv_selfie_face_failed">Liveness detection failed</string>
+</resources>

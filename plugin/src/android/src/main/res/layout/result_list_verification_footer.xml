@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/bg_result_item_even"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+    <Button
+        android:id="@+id/btn_result_repeat_liveness"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_btn_result_activity"
+        android:textColor="@color/text_btn"
+        android:text="@string/action_repeat_selfie"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/bg_btn_accent"
+        android:visibility="gone"
+        style="?android:attr/borderlessButtonStyle"
+        tools:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btn_result_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_btn_result_activity"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textColor="@color/text_btn"
+        android:text="@string/action_confirm"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/bg_btn_normal"
+        android:visibility="gone"
+        style="?android:attr/borderlessButtonStyle"
+        tools:visibility="visible"/>
+</LinearLayout>
+

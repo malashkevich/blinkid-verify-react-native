@@ -1,0 +1,51 @@
+/* Library strings */
+
+"photopay_help_title" = "Hilfe";
+"photopay_close" = "Abbrechen";
+"photopay_alt_close" = "Schließen";
+"photopay_again" = "Noch einmal";
+"photopay_help_close" = "Verstanden";
+"photopay_help_continue" = "Weiter";
+
+"photopay_light_on" = "Licht";
+"photopay_light_off" = "Licht";
+
+"photopay_help_screen_1" = "PhotoPay - Erledigen Sie Überweisungen einfach mit Ihrer Smartphone-Kamera";
+"photopay_help_screen_2" = "Legen Sie den Überweisungsträger auf eine ebene Fläche und halten Sie das Gerät darüber.";
+"photopay_help_screen_3" = "Positionieren Sie den Zahlschein innerhalb der vier Markierung. Er sollte diesen Bereich möglichst ausfüllen.";
+"photopay_help_screen_4" = "Achten Sie auf ausreichende Beleuchtung. Scannen Sie gerade von oben, nicht schräg.";
+"photopay_help_screen_5" = "Es können nur gedruckte und keine handgeschriebenen Einträge übernommen werden.";
+"photopay_warning_check_results" = "Prüfen Sie vor der Bezahlung, ob alle Daten korrekt erfasst wurden.";
+"photopay_help_more_info" = "Mehr Informationen";
+"photopay_help_screen_barcode" = "Halten Sie das Gerät über den Barcode und warten Sie den Scan ab.";
+
+"photopay_full_rec_message" = "Überweisungsträger wurde erkannt";
+"photopay_processing_message" = "Halten Sie das Gerät bitte still. Verarbeitung läuft…";
+
+"photopay_align_message" = "Positionieren Sie die Markierung über dem Überweisungsträger";
+"photopay_camera_too_high" = "Bringen Sie den Überweisungsträger näher ran";
+"photopay_camera_at_angle" = "Positionieren Sie das Gerät direkt über dem Überweisungsträger"; // unused
+"photopay_camera_rotated" = "Positionieren Sie das Gerät parallel zum Rahmen des Überweisungsträgers"; // unused
+"photopay_partial_slip" = "Ein Teil des Überweisungsträgers ist nicht sichtbar";
+"photopay_camera_too_near" = "Please increase the distance between the device and the slip"; // untranslated
+
+/** Demo app strings */
+
+"photopay_error_autofocus" = "Diese Funktion ist für Geräte ohne Autofokus-Option nicht verfügbar.";
+"photopay_error_old" = "Diese Option ist für Ihr Gerät nicht verfügbar.";
+"photopay_error_old_os" = "Diese Funktion ist verfügbar für iOS 4 und neuere Betriebssysteme.";
+"photopay_error_simulator" = "Diese Funktion ist nicht verfügbar für den iPhone-Simulator.";
+
+"photopay_no_rec_message" = "Überweisungsträger wurde nicht erkannt";
+"photopay_part_rec_message" = "Überweisungsträger wurde teilweise erkannt";
+
+"photopay_Timeout_Title"                 = "Überweisungsträger wurde nicht erkannt";
+"photopay_Timeout_Partial_Message"       = "Erkannten Daten:";
+"photopay_Timeout_Unsuccessful_Message"  = "";
+"photopay_Timeout_Cancel_Button"         = "Abbrechen";
+"photopay_Timeout_Try_Again_Button"      = "Wiederholung";
+"photopay_Timeout_Create_Payment_Button" = "Daten nutzen";
+
+"PP_Acceptgiro_Help_Text" = "Scan the white area at the bottom of your payslip. For best results, place the whole area inside the window above."; // untranslated
+
+"photopay_camera_permission_denied" = "{font:@Medium}%@{/font} does not have permission to use the camera.\n\nPlease go to:\n• {font:@Medium}Settings{/font}\n• {font:@Medium}%@{/font}\n• Make sure that {font:@Medium}Camera{/font} is enabled";
