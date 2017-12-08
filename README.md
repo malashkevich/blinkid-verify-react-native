@@ -12,8 +12,8 @@ This repository contains example wrapper for BlinkIDVerify native SDK for Androi
 BlinkIDVerify React Native was built and tested with [React Native v0.48.3](https://github.com/facebook/react-native/releases/tag/v0.48.3)
 
 ## Dependencies
-MicroBlink.framework/MicroBlink file in iOS submodule exceeds GitHubs limited file size of 100MB.
-To correctly init the submodule Git LFS is needed. Git LFS can be installed with homebrew:
+MicroBlink.framework/MicroBlink file in iOS plugin exceeds GitHubs limited file size of 100MB.
+To correctly fetch plugin, Git LFS is needed. Git LFS can be installed with homebrew:
 
 ```shell
 brew install git-lfs
